@@ -1,10 +1,4 @@
-import * as React from 'react';
+import Scheduler from './Scheduler';
 
-interface ThingProp {
-  text: string;
-}
-
-// Delete me
-export const Thing: React.FC<ThingProp> = props => {
-  return <div>{props.text}</div>;
-};
+export default Scheduler;
+export { default as View } from './View';
