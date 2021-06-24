@@ -1,8 +1,8 @@
 {
   "version": "0.1.0",
   "license": "MIT",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
   "files": [
     "dist",
     "src"
@@ -39,27 +39,35 @@
   "size-limit": [
     {
       "path": "dist/three-pm-test-module.cjs.production.min.js",
-      "limit": "10 KB"
+      "limit": "100 KB"
     },
     {
       "path": "dist/three-pm-test-module.esm.js",
-      "limit": "10 KB"
+      "limit": "100 KB"
     }
   ],
   "devDependencies": {
     "@size-limit/preset-small-lib": "^4.12.0",
     "@types/react": "^17.0.11",
+    "@types/styled-components": "^5.1.10",
     "@types/react-dom": "^17.0.7",
     "husky": "^6.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "size-limit": "^4.12.0",
     "tsdx": "^0.14.1",
-    "tslib": "^2.3.0",
-    "typescript": "^4.3.2"
+    "tslib": "^2.3.0"
   },
   "dependencies": {
-    "@types/styled-components": "^5.1.10",
-    "styled-components": "^5.3.0"
+    "@fullcalendar/core": "^5.7.2",
+    "@fullcalendar/daygrid": "^5.7.2",
+    "@fullcalendar/interaction": "^5.7.2",
+    "@fullcalendar/react": "^5.7.2",
+    "@fullcalendar/resource-timeline": "^5.7.2",
+    "@fullcalendar/timegrid": "^5.7.2",
+    "antd": "^4.16.2",
+    "bootstrap": "^5.0.1",
+    "styled-components": "^5.3.0",
+    "typescript": "^4.3.2"
   }
 }
