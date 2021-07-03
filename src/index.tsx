@@ -1,4 +1,2 @@
-import Scheduler from './Scheduler';
-
-export default Scheduler;
-export { default as View } from './View';
+export { SchedulerMobile } from './SchedulerMobile';
+export { SchedulerLG } from './SchedulerLG';
